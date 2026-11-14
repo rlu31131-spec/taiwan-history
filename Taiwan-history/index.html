@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台灣各縣市歷史介紹網站</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>台灣各縣市歷史介紹網站</h1>
+    <p>探索台灣 22 縣市的歷史沿革、時代脈絡與文化地標</p>
+  </header>
+
+  <main class="container">
+    <div class="filter-group" id="filterGroup">
+      <button class="filter-btn active" data-region="全部">全部地區</button>
+      <button class="filter-btn" data-region="北部">北部</button>
+      <button class="filter-btn" data-region="中部">中部</button>
+      <button class="filter-btn" data-region="南部">南部</button>
+      <button class="filter-btn" data-region="東部">東部</button>
+      <button class="filter-btn" data-region="離島">離島</button>
+    </div>
+
+    <div class="city-grid" id="cityGrid">
+      <!-- 動態渲染縣市卡片 -->
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 台灣各縣市歷史介紹網站 | Spec-Driven Development</p>
+  </footer>
+
+  <script src="./js/cities-data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
